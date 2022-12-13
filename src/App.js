@@ -1,14 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Title from './componentes/Title';
+import Mascota from './componentes/Mascota';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Title />
+      <Mascota />
+      {/* Los componentes nativos del REACT son como los de HTML, para diferenciar escribo las etiquetas que quiero declarar en mayúsculas.  */}
       <header className="App-header">
         
         <img src="images/perritoTierno1.jpg" alt="Perrito" />
         
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -26,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+

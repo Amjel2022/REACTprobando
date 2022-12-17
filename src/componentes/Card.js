@@ -1,11 +1,16 @@
 import "./Card.css";
 
+//parámetros a seguir:
+// - imagen (string)
+// - title (string)
+// - precio (number)
+// - envio_gratis (boolean)
 
 
 export default function Card () {
     let imagen = "images/perritoTierno1.jpg";
     let title = "Teléfono celular";
-    let precio = 25000
+    let precio = 25000;
     let envio_gratis= true;
 
     return (

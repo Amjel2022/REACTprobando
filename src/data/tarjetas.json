@@ -1,0 +1,18 @@
+[
+    {
+        "titulo": "Producto 1",
+        "imagen": "./images/perritoTierno1.jpg"
+    },
+    {
+        "titulo": "Perrito en adopción",
+        "imagen": "./images/perrito2.jpg"
+    },
+    {
+        "titulo": "Perrito pequeño",
+        "imagen": "./images/perrito3.jpg"
+    },
+    {
+        "titulo": "Otro perrito",
+        "imagen": "./images/perrito4.jpg"
+    }
+]
